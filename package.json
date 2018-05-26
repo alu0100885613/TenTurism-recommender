@@ -1,0 +1,18 @@
+{
+  "name": "deodat-recommender",
+  "version": "1.0.0",
+  "description": "recommender webhook of deodatbot",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Eduardo Borges",
+  "license": "ISC",
+  "dependencies": {
+    "js-recommender": "^1.0.5",
+    "mongodb": "^3.0.7",
+    "request": "^2.85.0",
+    "restify": "^7.1.1"
+  }
+}
